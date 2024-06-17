@@ -9,7 +9,7 @@ Erre megoldásként arra gondoltam, hogy egy nagyobb, összefüggő hanganyagot 
 Használat:
 A munkafüzet magában is tartalmazza a Transript str elkészítését, de azt vettem észre, hogy ugyan jó a faster-whisper, 
 de az a megvalósítás (https://github.com/Purfview/whisper-standalone-win) pontosabb eredményt ad az alábbi parancscsal:
-
+---
 whisper-faster "work_directory" --language=hu --model=large-v2 --beam_size=5 --print_progress --batch_recursive --output_format str
-
+---
 Ettől eltekintve csak click click click...
