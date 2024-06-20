@@ -14,4 +14,4 @@ whisper-faster "work_directory" --language=hu --model=large-v2 --beam_size=5 --p
 ```
 Ettől eltekintve csak click click click...
 
-A riport_2_speaker_separator.ipynb használatához a huugingfacen el kell fogadni a pyannote modelleh használatának licensz feltételeit. (első indításnál hibaüzenetben feldobja a konkrét modell elérhetőségét.)
+A riport_2_speaker_separator.ipynb használatához a huugingfacen el kell fogadni a pyannote model használatának licensz feltételeit. (első indításnál hibaüzenetben feldobja a konkrét modell elérhetőségét.)
