@@ -13,3 +13,5 @@ de az a megvalósítás (https://github.com/Purfview/whisper-standalone-win) pon
 whisper-faster "work_directory" --language=hu --model=large-v2 --beam_size=5 --print_progress --batch_recursive --output_format str
 ```
 Ettől eltekintve csak click click click...
+
+A riport_2_speaker_separator.ipynb használatához a huugingfacen el kell fogadni a pyannote modelleh használatának licensz feltételeit. (első indításnál hibaüzenetben feldobja a konkrét modell elérhetőségét.)
